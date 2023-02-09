@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        a:active {
+            color: yellow;
+        }
+        
+        .especial::before {
+            content: '☣ ';
+        }
+        
+        
+        
+        
+        div {
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            color: white;
+            height: 30px;
+            width: 100px;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover {
+            background-color: black;
+            text-decoration: underline;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        div:hover > #passar {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://enem.inep.gov.br/participante/#!/>Repositório">INEP</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" class="especial">Youtube</a></li>
+        <li><a href="#">Curso em Vídeo</a></li>
+    </ul>
+
+    <div>
+        <span id="passar">Passe aqui!</span>
+        <p>EXCELENTE!!!</p>
+        <p>Até aqui tem dado tudo certo!</p>
+    </div>
+
+</body>
+</html>

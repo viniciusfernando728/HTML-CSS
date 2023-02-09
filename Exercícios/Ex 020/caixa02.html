@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        header {
+            height: 140px;
+            background-color: white;
+            text-align: center;
+            padding: 8px 10px 0px 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.786);
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.558);
+            padding: 8px 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.786);
+            border-radius: 5px;
+        }
+
+        nav > a {
+            margin-right: 20px;
+            font-size: 1.3em;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline overline;
+        }
+
+        article {
+            background-color: white;
+            margin: 20px 0px;
+            padding: 20px 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.786);
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.786);
+        }
+
+        section {
+            background-color: black;
+            color: white;
+            margin: 20px 0px;
+            padding: 1px 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.786);
+        }
+
+        section:hover {
+            padding: 20px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.786);
+        }
+
+        section > p {
+            display: none;
+        }
+
+        section:hover > p {
+            display: block;
+        }
+
+        section > img {
+            display: none;
+        }
+
+        section:hover > img {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MAJESTOSA</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Promoções</a>
+            <a href="#">Carrinho</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Valores</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum odit beatae fugit debitis recusandae voluptatibus provident, rem ratione? Harum animi vitae, quis libero odio officia aut ea dolorum sequi error. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum magni culpa quis. Accusamus enim pariatur assumenda optio mollitia, soluta eaque eius esse? Consectetur tempora sapiente quam doloremque est, perspiciatis consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consequuntur veritatis unde minus voluptatibus dolor labore vitae ipsam explicabo. Delectus soluta veritatis enim quam magni perspiciatis itaque amet, sed nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex itaque recusandae nemo laborum ad inventore quis officiis rem possimus alias. Assumenda modi exercitationem voluptas architecto possimus officiis laborum quibusdam hic!</p>
+        </article>
+        <article>
+            <h2>Objetivos</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt debitis consequuntur vero beatae ipsa vel quas illum impedit quaerat ullam inventore, cum error ea repellendus, odit, ab illo provident facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsum. Totam animi tenetur, minima asperiores obcaecati magni voluptatem! Nobis quam pariatur id distinctio quidem, et sunt ipsam quo laboriosam voluptatum!</p>
+        </article>
+        <section>
+            <h2>Sobre nós</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic eum quisquam odio labore laboriosam alias consequuntur, autem, maxime voluptas omnis commodi vel perferendis quae nostrum quia ad, reiciendis nemo.</p>
+            <img src="WhatsApp Image 2023-01-21 at 02.18.11.jpeg" alt="Fundador">
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vinícius.</p>
+        <p>Todos os direitos reservados. &copy;</p>
+    </footer>
+</body>
+</html>
